@@ -35,3 +35,6 @@ writeFileSync(
     game_path_max_bytes: 1000,
   }),
 );
+
+// A one-line receipt on stdout so a human running the hand-in sees it worked.
+console.log('dossier written: ' + join(out, 'dossier.json'));
